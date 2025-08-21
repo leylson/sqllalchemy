@@ -33,6 +33,7 @@ Excluir pessoa do banco
 Clone este repositório:
 
 git clone https://github.com/seuusuario/seurepositorio.git
+
 cd seurepositorio
 
 Crie um ambiente virtual e instale as dependências:
