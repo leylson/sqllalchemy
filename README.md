@@ -8,14 +8,17 @@ Python 3.x
 SQLAlchemy
 
 📂 Estrutura do Projeto
-bash
-Copiar
-Editar
-.
+
+
 ├── models.py        # Definição das classes do banco (Pessoas, Atividades)
+
 ├── app.py           # Funções para manipular os dados (CRUD)
+
 ├── baseEscolar.db   # Banco de dados SQLite (gerado automaticamente)
+
 └── README.md
+
+-------------------------------------------
 
 ⚙️ Funcionalidades já implementadas
 Criar pessoas no banco de dados
@@ -28,6 +31,7 @@ Alterar idade de uma pessoa
 
 Excluir pessoa do banco
 
+----------------------------------------
 
 🛠️ Como rodar o projeto
 Clone este repositório:
@@ -36,18 +40,19 @@ git clone https://github.com/seuusuario/seurepositorio.git
 
 cd seurepositorio
 
+-----------------------------------------
+
 Crie um ambiente virtual e instale as dependências:
+
 python -m venv venv
+
 source venv/bin/activate   # Linux/Mac
+
 venv\Scripts\activate      # Windows
+
 pip install sqlalchemy
 
+-------------------------------------------
 
 Inicialize o banco de dados:
 python models.py
-
-Execute as funções CRUD no arquivo app.py, por exemplo:
-bash
-Copiar
-Editar
-python app.py
